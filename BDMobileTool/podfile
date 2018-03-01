@@ -1,0 +1,6 @@
+project 'BDMobileTool.xcodeproj'
+platform:ios,'9.0'
+target 'BDMobileTool' do
+use_frameworks!
+pod 'SnapKit'
+end
