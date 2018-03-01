@@ -20,12 +20,26 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LanchImage" translatesAutoresizingMaskIntoConstraints="NO" id="iqA-du-1NS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iqA-du-1NS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3h1-mF-skZ"/>
+                            <constraint firstItem="iqA-du-1NS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RD4-Y2-TTd"/>
+                            <constraint firstItem="iqA-du-1NS" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="S0p-eh-gwp"/>
+                            <constraint firstItem="iqA-du-1NS" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Tra-Ha-IfX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LanchImage" width="16" height="16"/>
+    </resources>
 </document>
