@@ -17,6 +17,9 @@
 		FA15CE8E2047D7800030A8A2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA15CE8C2047D7800030A8A2 /* MainViewController.xib */; };
 		FA15CE902048211A0030A8A2 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15CE8F2048211A0030A8A2 /* WatchViewController.swift */; };
 		FA3989BB2022C722005A51F5 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3989BA2022C722005A51F5 /* TestClass.swift */; };
+		FA603342204932BB00CE791E /* Timer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA603341204932BB00CE791E /* Timer+Extensions.swift */; };
+		FA60334420493F0500CE791E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60334320493F0500CE791E /* Helper.swift */; };
+		FA6033462049404200CE791E /* DispatchQueue+BDKOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6033452049404200CE791E /* DispatchQueue+BDKOnce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		FA15CE8C2047D7800030A8A2 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		FA15CE8F2048211A0030A8A2 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
 		FA3989BA2022C722005A51F5 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		FA603341204932BB00CE791E /* Timer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+Extensions.swift"; sourceTree = "<group>"; };
+		FA60334320493F0500CE791E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FA6033452049404200CE791E /* DispatchQueue+BDKOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+BDKOnce.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				FA15CE8C2047D7800030A8A2 /* MainViewController.xib */,
 				FA15CE8F2048211A0030A8A2 /* WatchViewController.swift */,
 				FA152A8920108181002F3A01 /* ViewController.swift */,
+				FA60334320493F0500CE791E /* Helper.swift */,
+				FA6033452049404200CE791E /* DispatchQueue+BDKOnce.swift */,
+				FA603341204932BB00CE791E /* Timer+Extensions.swift */,
 				FA152A8B20108181002F3A01 /* Main.storyboard */,
 				FA152A8E20108181002F3A01 /* Assets.xcassets */,
 				FA152A9020108181002F3A01 /* LaunchScreen.storyboard */,
@@ -239,7 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA152A8A20108181002F3A01 /* ViewController.swift in Sources */,
+				FA60334420493F0500CE791E /* Helper.swift in Sources */,
+				FA603342204932BB00CE791E /* Timer+Extensions.swift in Sources */,
 				FA15CE902048211A0030A8A2 /* WatchViewController.swift in Sources */,
+				FA6033462049404200CE791E /* DispatchQueue+BDKOnce.swift in Sources */,
 				FA3989BB2022C722005A51F5 /* TestClass.swift in Sources */,
 				FA152A8820108181002F3A01 /* AppDelegate.swift in Sources */,
 				FA15CE8D2047D7800030A8A2 /* MainViewController.swift in Sources */,
